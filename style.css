@@ -1,0 +1,50 @@
+h2 {
+    padding-top: 20px;
+    color: teal;
+    font-size: 32px;
+    padding-left: 800;
+  }
+  p {
+    padding-left: 800;
+    margin: 800;
+  }
+  
+  body {
+    padding: 800;
+    margin: 800;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333;
+    text-align: left;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+ /* Giving our navbar some padding and a background color */
+ .navbar{
+    
+    } 
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    text-align: left;
+    display: inline-flexbox;
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: teal;
+    text-decoration: none;
+  }
+
+  
+  
